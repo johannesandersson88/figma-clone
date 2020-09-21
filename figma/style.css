@@ -1,0 +1,913 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ebebeb;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Top Container */
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 544px;
+}
+
+/* Left Box */
+.left {
+  background: #c7ddea;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-content {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.left-content h1 {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: -0.02em;
+  margin-top: 70px;
+}
+
+.left-content p {
+  margin-top: 1.5rem;
+  font-family: "Fira Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.left-content span {
+  color: #fff;
+}
+
+.left-content .btn {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  width: 131px;
+  height: 39px;
+  background: #ffffff;
+  color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 100px;
+  font-family: "Fira sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.left-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+}
+
+/* Right Box */
+
+.right {
+  width: 50%;
+  height: 100%;
+}
+
+.right-box-one {
+  width: 100%;
+  height: 50%;
+  background: #f17949;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.right-box-one-content p {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.right-box-one-content h2 {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.right-box-one-content h2:hover {
+  opacity: 0.8;
+}
+
+.right-box-two {
+  width: 100%;
+  height: 50%;
+  background: #fab131;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.right-box-two-content p {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.right-box-two-content h2 {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 41px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+.right-box-two-content h2:hover {
+  opacity: 0.8;
+}
+
+/* Nav Bar */
+
+.nav-bar {
+  width: 100%;
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav ul {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 100px;
+  list-style: none;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.main-nav a {
+  display: block;
+  text-decoration: none;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #8d8d8d;
+}
+
+.main-nav a:hover {
+  color: #000000;
+}
+
+/* Showcase */
+
+.showcase {
+  width: 100%;
+  height: 1292px;
+}
+
+.showcase-header {
+  width: 100%;
+  height: 500px;
+  background: #a9a19e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 160px;
+}
+
+.showcase-top {
+  background: #a9a19e;
+  width: 100%;
+  height: 112px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.showcase-middle {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 140px;
+}
+
+.showcase-bottom {
+  background: #fab131;
+  width: 100%;
+  height: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+/* Showcase Header */
+
+.header-content {
+  height: 240px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.header-content h1 {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  margin-bottom: 100px;
+  color: #fff;
+}
+
+.header-text {
+  height: 240px;
+  width: 30%;
+}
+
+.header-text p {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Showcase Bottom */
+
+.showcase-bottom-content {
+  height: 240px;
+  width: 500px;
+  margin-bottom: 160px;
+}
+
+.showcase-bottom-content h1 {
+  margin-bottom: 80px;
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-size: 35px;
+  letter-spacing: -0.02em;
+  margin-top: 0;
+  color: #fff;
+}
+
+.showcase-bottom-content p {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Showcase Frame */
+
+.wrapper-frame {
+  height: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frame1 {
+  margin-right: 20px;
+  background: white;
+  width: 256px;
+  height: 308px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.frame1-over {
+  height: 150px;
+  width: 236px;
+  background: #c7ddea;
+  display: inline-block;
+  margin: 23px;
+  margin-top: -60px;
+  border-radius: 8px;
+}
+
+.frame1-over img {
+  width: 90%;
+}
+
+.frame-1-image {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.frame1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.frame1-content h3 {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.frame1-content p {
+  padding: 16px 16px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* Frame 1 Ending */
+
+.frame2 {
+  margin-right: 20px;
+  background: white;
+  width: 256px;
+  height: 308px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.frame2-over {
+  height: 150px;
+  width: 236px;
+  background: #fab131;
+  display: inline-block;
+  margin: 23px;
+  margin-top: -60px;
+  border-radius: 8px;
+}
+
+.frame2-over img {
+  width: 90%;
+}
+
+.frame-2-image {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.frame2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.frame2-content h3 {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.frame2-content p {
+  padding: 16px 16px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* Frame 2 Ending */
+
+.frame3 {
+  margin-right: 20px;
+  background: white;
+  width: 256px;
+  height: 308px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.frame3-over {
+  height: 150px;
+  width: 236px;
+  background: #f17949;
+  display: inline-block;
+  margin: 23px;
+  margin-top: -60px;
+  border-radius: 8px;
+}
+
+.frame3-over img {
+  width: 90%;
+}
+
+.frame-3-image {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.frame3-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.frame3-content h3 {
+  font-family: "Frank Ruhl Libre", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.frame3-content p {
+  padding: 16px 16px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* Frame 3 Ending */
+
+.grid-wrapper {
+  height: 680px;
+  width: 100%;
+}
+.grid-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-item {
+  font-size: 30px;
+  display: flex;
+}
+
+/* Grid 1 */
+
+.grid-item-1-content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background: #c7ddea;
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 65px;
+}
+
+/* Grid 2 */
+
+.grid-item-2-content {
+  background: #fff;
+}
+
+.grid-item-2-content h1 {
+  position: absolute;
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  padding: 10px 10px 0;
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.grid-2 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.grid-2 p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.grid-2 a:hover {
+  opacity: 0.5;
+}
+
+/* Grid 3 */
+
+.grid-item-3-content h1 {
+  position: absolute;
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  padding: 10px 10px 0;
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.grid-3 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.grid-3 p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.grid-3 a:hover {
+  opacity: 0.5;
+}
+
+/* Grid 4 */
+
+.grid-item-4-content {
+  background: #fff;
+}
+
+.grid-item-4-content h1 {
+  position: absolute;
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  padding: 10px 10px 0;
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.grid-4 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.grid-4 p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.grid-4 a:hover {
+  opacity: 0.5;
+}
+
+/* Grid 5 */
+
+.grid-item-5-content {
+  background: #f17949;
+}
+
+.grid-item-5-content h1 {
+  position: absolute;
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  padding: 10px 10px 0;
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.grid-5 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.grid-5 p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Grid 6 */
+
+.grid-item-6-content {
+  background: #fff;
+}
+
+.grid-item-6-content h1 {
+  position: absolute;
+  font-family: "Frank Ruhl Libre";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 45px;
+  padding: 10px 10px 0;
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.grid-6 {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 50px;
+}
+
+.grid-6 p {
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Footer */
+
+.main-footer {
+  height: 68px;
+  width: 100%;
+  background: #a9a19e;
+}
+
+.main-footer-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-footer-content h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "Fira Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.main-footer-content h2:hover {
+  color: #000000;
+}
+
+.last-box {
+  width: 100%;
+  height: 340px;
+  background: #777574;
+}
+
+/* Media Queries */
+
+@media (max-width: 770px) {
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    height: auto;
+  }
+
+  .top-container img {
+    width: 50%;
+    height: auto;
+  }
+
+  .right {
+    width: 100%;
+    height: 500px;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    height: auto;
+  }
+
+  .showcase-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+
+  .header-text {
+    display: none;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .showcase-middle {
+    display: none;
+  }
+
+  .showcase-bottom {
+    display: flex;
+    flex: 1;
+    height: auto;
+    text-align: center;
+  }
+
+  .wrapper-frame {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .grid-wrapper {
+    max-width: 700px;
+  }
+  .grid-container {
+    display: grid;
+    margin-top: auto;
+    grid-template-columns: auto;
+  }
+
+  .main-footer {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    height: auto;
+  }
+
+  .top-container img {
+    width: 50%;
+    height: auto;
+  }
+
+  .right {
+    width: 100%;
+    height: 500px;
+  }
+
+  .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .showcase {
+    display: none;
+  }
+
+  .showcase-bottom-content {
+    display: none;
+    background: black;
+    font-size: 2px;
+  }
+
+  .wrapper-frame {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .grid-container {
+    display: grid;
+    margin-top: auto;
+    grid-template-columns: auto;
+  }
+
+  .main-footer {
+    display: none;
+  }
+}
